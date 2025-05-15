@@ -28,7 +28,7 @@ public class BoidSimulationControl : MonoBehaviour
         // Spawn the boids
         for (int i = 0; i < boidToSpawn; i++)
         {
-            //the spoot of spawining
+            //the spot of spawining
             Vector3 position = new Vector3(Random.Range(0.7f,-1), Random.Range(0, 1.3f), Random.Range(-0.4f, 0));
             Quaternion rotation = Random.rotation;
 
